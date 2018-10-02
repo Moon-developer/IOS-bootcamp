@@ -3,4 +3,5 @@ Repo to store my IOS bootcamp project
 
 ## DONE so far
 
-- day00
+[x] day00
+[x] day01
