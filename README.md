@@ -5,8 +5,8 @@ Repo to store my IOS bootcamp project
 
 - [x] day00
 - [x] day01
-- [ ] day02
-- [ ] day03
+- [x] day02
+- [x] day03
 - [ ] day04
 - [ ] day05
 - [ ] day06
