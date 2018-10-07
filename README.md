@@ -8,7 +8,7 @@ Repo to store my IOS bootcamp project
 - [x] day01 - Create a card game purely swift no visuals
 - [x] day02 - Create a notebook
 - [x] day03 - Create an image gallery
-- [ ] day04 - Create a basic twitter application
+- [x] day04 - Create a basic twitter application
 - [ ] rush00
 ### Week 2
 - [ ] day05
