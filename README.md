@@ -9,9 +9,9 @@ Repo to store my IOS bootcamp project
 - [x] day02 - Create a notebook
 - [x] day03 - Create an image gallery
 - [x] day04 - Create a basic twitter application
-- [ ] rush00
+- [x] rush00
 ### Week 2
-- [ ] day05
+- [x] day05 - create a map application
 - [ ] day06
 - [ ] day07
 - [ ] day08
