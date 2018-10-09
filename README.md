@@ -12,7 +12,7 @@ Repo to store my IOS bootcamp project
 - [x] ![Marks](https://img.shields.io/badge/marks-54%25-brightgreen.svg) rush00 - Create a messaging application
 ### Week 2
 - [x] day05 - create a map application
-- [x] day06 - application that uses all gestures and the accelorameter
+- [x] day06 - application that uses all gestures and the accelerometer  
 - [ ] day07
 - [ ] day08
 - [ ] day09
