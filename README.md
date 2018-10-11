@@ -13,7 +13,7 @@ Repo to store my IOS bootcamp project
 ### Week 2
 - [x] day05 - create a map application
 - [x] day06 - application that uses all gestures and the accelerometer  
-- [ ] day07
+- [x] day07 - chatbot and weather bot messaging application with siri builtin
 - [ ] day08
 - [ ] day09
 - [ ] rush01
