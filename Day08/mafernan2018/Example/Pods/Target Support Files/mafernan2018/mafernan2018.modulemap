@@ -1,6 +1,0 @@
-framework module mafernan2018 {
-  umbrella header "mafernan2018-umbrella.h"
-
-  export *
-  module * { export * }
-}
