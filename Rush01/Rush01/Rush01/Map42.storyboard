@@ -145,13 +145,43 @@
                                     <outlet property="delegate" destination="Y0W-EP-XXY" id="ImB-wN-CRq"/>
                                 </connections>
                             </mapView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Xc3-e9-6aS">
+                                <rect key="frame" x="84" y="555" width="212" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="xnK-2E-hCr"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="Standard"/>
+                                    <segment title="Satellite"/>
+                                    <segment title="Hybrid"/>
+                                </segments>
+                                <connections>
+                                    <action selector="mapType:" destination="Y0W-EP-XXY" eventType="valueChanged" id="sc7-wD-Iz7"/>
+                                </connections>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P4x-Nm-kuw">
+                                <rect key="frame" x="321" y="557" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="VhV-zp-ZH2"/>
+                                </constraints>
+                                <state key="normal" image="scope-1"/>
+                                <connections>
+                                    <action selector="findMeButton:" destination="Y0W-EP-XXY" eventType="touchUpInside" id="DEg-BS-nbs"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="oZ6-Tb-E7G" firstAttribute="leading" secondItem="rbC-ZK-jU6" secondAttribute="leading" id="SV8-fA-EVH"/>
-                            <constraint firstItem="oZ6-Tb-E7G" firstAttribute="bottom" secondItem="5xM-P5-OOZ" secondAttribute="bottom" id="XS9-wm-vSW"/>
-                            <constraint firstItem="oZ6-Tb-E7G" firstAttribute="top" secondItem="5xM-P5-OOZ" secondAttribute="top" id="bOi-bS-iyQ"/>
-                            <constraint firstAttribute="trailing" secondItem="oZ6-Tb-E7G" secondAttribute="trailing" id="cfH-El-YPX"/>
+                            <constraint firstItem="5xM-P5-OOZ" firstAttribute="bottom" secondItem="P4x-Nm-kuw" secondAttribute="bottom" constant="17" id="5qr-nk-cB2"/>
+                            <constraint firstItem="P4x-Nm-kuw" firstAttribute="leading" secondItem="Xc3-e9-6aS" secondAttribute="trailing" constant="25" id="MZ5-9Q-2m3"/>
+                            <constraint firstItem="P4x-Nm-kuw" firstAttribute="leading" secondItem="Xc3-e9-6aS" secondAttribute="trailing" constant="25" id="NLU-cy-1x2"/>
+                            <constraint firstItem="oZ6-Tb-E7G" firstAttribute="bottom" secondItem="5xM-P5-OOZ" secondAttribute="bottom" id="RDJ-hc-hwn"/>
+                            <constraint firstItem="oZ6-Tb-E7G" firstAttribute="top" secondItem="5xM-P5-OOZ" secondAttribute="top" id="XQ9-20-kS7"/>
+                            <constraint firstItem="oZ6-Tb-E7G" firstAttribute="leading" secondItem="5xM-P5-OOZ" secondAttribute="leading" id="YpX-mj-sAc"/>
+                            <constraint firstItem="5xM-P5-OOZ" firstAttribute="bottom" secondItem="Xc3-e9-6aS" secondAttribute="bottom" constant="15" id="fdf-Xk-058"/>
+                            <constraint firstItem="Xc3-e9-6aS" firstAttribute="leading" secondItem="5xM-P5-OOZ" secondAttribute="leading" constant="84" id="t0V-0G-Bit"/>
+                            <constraint firstItem="5xM-P5-OOZ" firstAttribute="trailing" secondItem="P4x-Nm-kuw" secondAttribute="trailing" constant="30" id="wPX-Pk-TVN"/>
+                            <constraint firstItem="oZ6-Tb-E7G" firstAttribute="trailing" secondItem="5xM-P5-OOZ" secondAttribute="trailing" id="yXf-c1-dto"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="5xM-P5-OOZ"/>
                     </view>
@@ -371,5 +401,6 @@
     <resources>
         <image name="icons8-menu-30" width="30" height="30"/>
         <image name="icons8-waypoint-map-24" width="24" height="24"/>
+        <image name="scope-1" width="24" height="24"/>
     </resources>
 </document>

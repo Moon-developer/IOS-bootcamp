@@ -70,6 +70,32 @@ class MainViewController: UIViewController, CLLocationManagerDelegate, UISearchB
         }
     }
     
+    @IBAction func mapType(_ sender: Any) {
+        switch (sender as AnyObject).selectedSegmentIndex {
+        case 0:
+            mapView.mapType = .standard
+            break
+        case 1:
+            mapView.mapType = .satellite
+            break
+        case 2:
+            mapView.mapType = .hybrid
+            break
+        default:
+            mapView.mapType = .standard
+            break
+        }
+    }
+    
+    @IBAction func findMeButton(_ sender: Any) {
+        mapView.removeOverlays(mapView.overlays)
+        if mapView.annotations.count > 0 {
+            let annotations = self.mapView.annotations
+            self.mapView.removeAnnotations(annotations)
+        }
+        startTrackingUserLocation()
+    }
+    
     @objc func showNavigation()
     {
         performSegue(withIdentifier: "showNavigation", sender: nil)
