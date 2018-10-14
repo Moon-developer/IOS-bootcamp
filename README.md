@@ -1,7 +1,7 @@
 # IOS-bootcamp
-Repo to store my IOS bootcamp project
+WeThinkCode\_ Swift/IOS bootcamp. A two week introduction to coding in swift for the first time. Each day we are give an exercise to build an application. On weekends we have a two day project called a Rush, the rushes tend to require a more complex application to be made.
 
-## DONE so far
+## PROGRESS AND MARKS
 
 ### Week 1
 - [x] ![Marks](https://img.shields.io/badge/marks-100%25-brightgreen.svg) day00 - Build a basic calculator
@@ -17,3 +17,11 @@ Repo to store my IOS bootcamp project
 - [x] ![Marks](https://img.shields.io/badge/marks-100%25-brightgreen.svg) day08 - create a pod that allows to save persistant data
 - [ ] ![Marks](https://img.shields.io/badge/failed-unattempted-orange.svg) day09 - Create a personal diary that uses apple security features
 - [x] ![Marks](https://img.shields.io/badge/marks-100%25-brightgreen.svg) rush01 - create a more advance map application
+
+## Subject details
+
+The details to what was required from us during the bootcamp can be found in the question sheet folder.
+
+## AUTHOR
+
+> Marco Fernandes
