@@ -11,9 +11,9 @@ Repo to store my IOS bootcamp project
 - [x] ![Marks](https://img.shields.io/badge/marks-100%25-brightgreen.svg) day04 - Create a basic twitter application
 - [x] ![Marks](https://img.shields.io/badge/marks-54%25-brightgreen.svg) rush00 - Create a messaging application
 ### Week 2
-- [x] day05 - create a map application
-- [x] day06 - application that uses all gestures and the accelerometer  
-- [x] day07 - chatbot and weather bot messaging application with siri builtin
-- [ ] day08
-- [ ] day09
-- [ ] rush01
+- [x] ![Marks](https://img.shields.io/badge/marks-100%25-brightgreen.svg) day05 - create a map application
+- [x] ![Marks](https://img.shields.io/badge/marks-100%25-brightgreen.svg) day06 - application that uses all gestures and the accelerometer  
+- [x] ![Marks](https://img.shields.io/badge/marks-100%25-brightgreen.svg) day07 - chatbot and weather bot messaging application with siri builtin
+- [x] ![Marks](https://img.shields.io/badge/marks-100%25-brightgreen.svg) day08 - create a pod that allows to save persistant data
+- [ ] ![Marks](https://img.shields.io/badge/failed-unattempted-orange.svg) day09 - Create a personal diary that uses apple security features
+- [x] ![Marks](https://img.shields.io/badge/marks-100%25-brightgreen.svg) rush01 - create a more advance map application
