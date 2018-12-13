@@ -16,7 +16,7 @@ WeThinkCode\_ Swift/IOS bootcamp. A two week introduction to coding in swift for
 - [x] ![Marks](https://img.shields.io/badge/marks-100%25-brightgreen.svg) day07 - chatbot and weather bot messaging application with siri builtin
 - [x] ![Marks](https://img.shields.io/badge/marks-100%25-brightgreen.svg) day08 - create a pod that allows to save persistant data
 - [ ] ![Marks](https://img.shields.io/badge/failed-unattempted-orange.svg) day09 - Create a personal diary that uses apple security features
-- [x] ![Marks](https://img.shields.io/badge/marks-100%25-brightgreen.svg) rush01 - create a more advance map application
+- [x] ![Marks](https://img.shields.io/badge/marks-97%25-brightgreen.svg) rush01 - create a more advance map application
 
 ## Subject details
 
